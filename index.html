@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The band | Periphery</title>
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- Navegação -->
-    <nav>
+    <nav class="wow fadeIn">
         <ul class="nav-mobile">
             <div>
                 <li><a href="">Home</a></li>
@@ -33,13 +34,13 @@
 
     <!-- Slide -->
 
-    <section class="slide">
+    <section class="slide wow fadeIn">
         <img src="img/slide1.jpg" alt="slide1">
     </section>
 
     <!-- Main Content -->
     <div class="container">
-        <section class="main-content" id="band">
+        <section class="main-content wow fadeIn" id="band">
             <div class="section-title">
                 <h1>Periphery</h1>
                 <span>Progressive/Djent Metal</span>
@@ -48,11 +49,11 @@
             <hr>
 
             <!-- MEMBERS -->
-            <div class="section-title" style="margin-top:2rem">
+            <div class="section-title wow fadeIn" style="margin-top:2rem">
                 <h2>Members</h2>
             </div>
 
-            <div class="row">
+            <div class="row wow fadeIn">
                 <div class="members col-md-4">
                     <img src="img/bandmember.jpg" alt="Misha Mansoor">
                     <h2>Misha Mansoor</h2>
@@ -83,11 +84,11 @@
             <hr>
 
             <!-- ALBUNS -->
-            <div class="section-title">
+            <div class="section-title wow fadeIn">
                 <h2>Albuns</h2>
             </div>
 
-            <div class="row">
+            <div class="row wow fadeIn">
                 <div class="members col-md-3">
                     <img src="img/album1.jpg" alt="Periphery III: Select Difficulty">
                     <h2>Periphery III: Select Difficulty</h2>
@@ -136,11 +137,11 @@
 
     <section class="tour" id="tour">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title wow fadeIn">
                 <h2>Tour dates</h2>
                 <span>Remember to book your tickets!</span>
             </div>
-            <div class="row">
+            <div class="row wow fadeIn">
                 <div class="col-md-12">
                     <div class="tickets">
                         <ul>
@@ -198,7 +199,7 @@
 
     <!-- Contact -->
 
-    <section class="contact" id="contact">
+    <section class="contact wow fadeIn" id="contact">
         <div class="container">
             <div class="section-title">
                 <h2>Contact</h2>
@@ -240,10 +241,10 @@
     </section>
 
 
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.1268069289786!2d-81.56606268556897!3d28.385237701982405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7ee634caa5f7%3A0xa71e391fd01cf1a0!2sWalt+Disney+World+Resort!5e0!3m2!1spt-BR!2sbr!4v1520556790798" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe class="map wow fadeIn" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.1268069289786!2d-81.56606268556897!3d28.385237701982405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7ee634caa5f7%3A0xa71e391fd01cf1a0!2sWalt+Disney+World+Resort!5e0!3m2!1spt-BR!2sbr!4v1520556790798" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <!-- Footer -->
-    <footer class="bg-dark text-light">
+    <footer class="bg-dark text-light wow fadeIn">
         <div class="container">
             <ul>
                 <i class="fab fa-facebook"></i>
@@ -257,6 +258,11 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
 </body>
 
 </html>
