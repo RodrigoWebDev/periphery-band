@@ -1,0 +1,18 @@
+footer{
+    text-align:center;
+    padding:2rem;
+    a{
+        color:inherit;
+        text-decoration:underline;
+    }
+    a:hover{
+        color:black
+    }
+    svg{
+        font-size:30px !important;
+    }
+    svg:hover{
+        color:black;
+        cursor:pointer;
+    }
+}

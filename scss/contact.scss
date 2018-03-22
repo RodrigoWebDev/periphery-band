@@ -1,0 +1,24 @@
+.contact {
+    .row {
+        padding: 2rem 0;
+        align-items:center;
+    }
+    form {
+        label {
+            width: 100%;
+            input {
+                width: 100%;
+                padding: 8px;
+            }
+        }
+        button {
+            float: right;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.map{
+    width:100%;
+}

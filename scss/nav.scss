@@ -1,0 +1,45 @@
+//NAVBAR
+nav {
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1;
+    height:44px;
+    .nav{
+        display:none;
+    }
+    ul{
+        a,span{
+            color:white;
+            padding:10px 18px;
+        }
+        a:hover,span:hover{
+            background:$background-li-color;
+            color:black;
+            text-decoration:none;
+            cursor:pointer;
+            transition:.2s;
+        }
+        li{
+            padding:10px 0;
+        }
+        >div:first-child{
+            display:flex;
+            justify-content:space-between;
+        }
+        .dropdown-ul{
+            background:black;
+        }
+    }
+    
+    .dropdown-ul{
+        display:none;
+        a{
+            display:block;
+        }
+    }
+}

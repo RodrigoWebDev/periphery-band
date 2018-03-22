@@ -1,0 +1,66 @@
+.tour {
+    background: black;
+    color: white;
+    .row{
+        margin:1rem 0;
+    }
+    .col-md-4,.col-md-12{
+        padding:0;
+    }
+    .tickets {
+        background: white;
+        margin:0 10px;  
+        ul{
+            margin:0;
+        }
+        li {
+            color: #757575;
+            padding: 8px 18px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+            span {
+                background: #f44336;
+                color: white;
+                padding: 0 10px;
+                margin-left: 14px;
+            }
+        }
+        li:nth-child(3) {
+            span {
+                background: black;
+                border-radius: 50%;
+                padding: {
+                    left: 8px;
+                    right: 8px;
+                }
+                float:right;
+            }
+        }
+    }
+
+    .location {
+        background: white;
+        color: black;
+        margin:10px;    
+        .content-location {
+            padding: 1rem;
+        }
+        img {
+            width: 100%;
+        }
+        img:hover {
+            @include transition;
+            cursor: pointer;
+        }
+        h2 {
+            font-size: 1rem;
+            font-weight: bolder;
+            margin-bottom: 1rem;
+        }
+
+        span {
+            display: block;
+            margin-bottom: 1rem;
+            color: rgba(0, 0, 0, 0.60);
+        }
+    }
+}
