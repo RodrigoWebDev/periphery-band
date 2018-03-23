@@ -15,5 +15,13 @@
             margin:0 auto;
             width:100%;
         }
+        img:hover{
+            cursor:pointer;
+            opacity:0.5;
+            transition:0.3s;
+        }
+        a{
+            color:inherit;
+        }
     }
 }
